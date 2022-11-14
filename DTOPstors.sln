@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOPstors_API", "DTOPstors_API\DTOPstors_API.csproj", "{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOPstors_API", "DTOPstors_API\DTOPstors_API.csproj", "{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{950A767A-BB39-485D-ACD2-A0B84203960F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950A767A-BB39-485D-ACD2-A0B84203960F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950A767A-BB39-485D-ACD2-A0B84203960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950A767A-BB39-485D-ACD2-A0B84203960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950A767A-BB39-485D-ACD2-A0B84203960F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
