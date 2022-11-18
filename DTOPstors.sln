@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOPstors_API", "DTOPstors_API\DTOPstors_API.csproj", "{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "DTOPstors_API\API.csproj", "{54B1D8EB-C4DA-4297-8BC0-FE6011AD9F23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{950A767A-BB39-485D-ACD2-A0B84203960F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "DataAccess\Domain.csproj", "{950A767A-BB39-485D-ACD2-A0B84203960F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Services\Core.csproj", "{27E2A0A7-E31A-4DBB-8F2A-D72572721F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
